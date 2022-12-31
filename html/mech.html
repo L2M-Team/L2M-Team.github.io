@@ -1,0 +1,100 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<title>Mech Stream</title>
+<link rel="icon" href="/images/l2m.jpeg">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6200394544001201"
+     crossorigin="anonymous"></script>
+</head>
+    <body>
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close &times;</button>
+  <a href="/index.html" class="w3-bar-item w3-button">Home</a>
+  <a href="cse.html" class="w3-bar-item w3-button">CSE Stream</a>
+  <a href="eee.html" class="w3-bar-item w3-button">EEE Stream</a>
+  <a href="civil.html" class="w3-bar-item w3-button">Civil Stream</a>
+    <a href="mech.html" class="w3-bar-item w3-button">Mech Stream</a>
+    <a href="science.html" class="w3-bar-item w3-button">Engg Science</a>
+    <a href="tech.html" class="w3-bar-item w3-button">Emgerging Tech</a>
+    <a href="program.html" class="w3-bar-item w3-button">Programming Course</a>
+    <a href="common.html" class="w3-bar-item w3-button">Common Courses</a>
+    <a href="developer.html" class="w3-bar-item w3-button">About</a>
+</div>
+<div id="main">
+
+    <div class="w3-blue">
+      <button id="openNav" class="w3-button w3-voiletgreen w3-xlarge" onclick="w3_open()" style="display:inline-block;size:15%;margin-top:-2%;">&#9776;</button>
+      <div class="w3-container" style="display:inline-block;text-align:center;">
+        <h1 style="text-align:center;margin-top:1%;">Learn2More</h1>
+      </div>
+    </div>
+    <div class="container">
+      <div class="panel panel-title"><h3 style="text-align: center;">Mechanical Engineering Streams</h3>
+      </div>
+    </br> 
+    <br>
+      <table class="table table-hover table-striped">
+          <thead>
+            <tr>
+              <th>Subject Code</th>
+              <th>Subject Name</th>
+              <th>Video Lectures</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>22MATM11</td>
+              <td> Mathematics for Mechanical Engg Stream-I</td>
+              <td><a href="matm11.html">Click here to watch</a></td>
+              <td><a href="/Notes/matm11N.html">Download</a></td>
+            </tr>
+            <tr>
+              <td>22MATM21</td>
+              <td>Mathematics for MES Stream-II</td>
+              <td><a href="matm21.html">Click here to watch</a></td>
+              <td><a href="/Notes/matm21N.html">Download</a></td>
+            </tr>
+            <tr>
+              <td>22PHYM12/22</td>
+              <td>Physics for MES Stream</td>
+              <td><a href="phym12.html">Click here to watch</a></td>
+              <td><a href="/Notes/phym12N.html">Download</a></td>
+            </tr>
+            <tr>
+              <td>22CHEM12/22</td>
+              <td>Chemistry for MES Stream</td>
+              <td><a href="chem12.html">Click here to watch</a></td>
+              <td><a href="/Notes/chem12N.html">Download</a></td>
+            </tr>
+            <tr>
+              <td>22EME13/23</td>
+              <td>Elements of Mechanical Engineering</td>
+              <td><a href="eme13.html">Click here to watch</a></td>
+              <td><a href="/Notes/eme13N.html">Download</a></td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+<script>
+    function w3_open() {
+      document.getElementById("main").style.marginLeft = "33%";
+      document.getElementById("mySidebar").style.width = "37%";
+      document.getElementById("mySidebar").style.display = "block";
+      document.getElementById("openNav").style.display = 'none';
+    }
+    function w3_close() {
+      document.getElementById("main").style.marginLeft = "0%";
+      document.getElementById("mySidebar").style.display = "none";
+      document.getElementById("openNav").style.display = "inline-block";
+    }
+</script>
+    </body>
+</html>
