@@ -1,0 +1,94 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<title>CSE Stream</title>
+<style> 
+</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6200394544001201"
+     crossorigin="anonymous"></script>
+</head>
+    <body>
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close &times;</button>
+  <a href="index.html" class="w3-bar-item w3-button">Home</a>
+  <a href="cse.html" class="w3-bar-item w3-button">CSE Stream</a>
+  <a href="eee.html" class="w3-bar-item w3-button">EEE Stream</a>
+  <a href="civil.html" class="w3-bar-item w3-button">Civil Stream</a>
+    <a href="mech.html" class="w3-bar-item w3-button">Mech Stream</a>
+    <a href="science.html" class="w3-bar-item w3-button">Engg Science</a>
+    <a href="tech.html" class="w3-bar-item w3-button">Emgerging Tech</a>
+    <a href="program.html" class="w3-bar-item w3-button">Programming Course</a>
+    <a href="common.html" class="w3-bar-item w3-button">Common Courses</a>
+    <a href="developer.html" class="w3-bar-item w3-button">About</a>
+</div>
+<div id="main">
+
+    <div class="w3-blue">
+      <button id="openNav" class="w3-button w3-voiletgreen w3-xlarge" onclick="w3_open()" style="display:inline-block;size:15%;margin-top:-2%;">&#9776;</button>
+      <div class="w3-container" style="display:inline-block;text-align:center;">
+        <h1 style="text-align:center;margin-top:1%;">CodeWave</h1>
+      </div>
+    </div>
+  <div class="container">
+    <div class="panel panel-title"><h3 style="text-align: center;">Computer Science and Engineering syllabus(CSE/ISC/BT)</h3></div>
+  </br> 
+  <br>
+    <table class="table table-hover table-striped">
+        <thead>
+          <tr>
+            <th>Subject Code</th>
+            <th>Subject Name</th>
+            <th>Video Lectures & Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>22MATS11</td>
+            <td> Mathematics for CSE Stream-I</td>
+            <td><a href="mats11.html">Click here to watch</a></td>
+          </tr>
+          <tr>
+            <td>22MATS21</td>
+            <td>Mathematics for CSE Stream-II</td>
+            <td><a href="mats21.html">Click here to watch</a></td>
+          </tr>
+          <tr>
+            <td>22PHYS12/22</td>
+            <td>Physics for CSE Stream</td>
+            <td><a href="phys12.html">Click here to watch</a></td>
+          </tr>
+          <tr>
+            <td>22CHES12/22</td>
+            <td>Chemistry for CSE Stream</td>
+            <td><a href="ches12.html">Click here to watch</a></td>
+          </tr>
+          <tr>
+            <td>22POP13/23</td>
+            <td>Principles of Programming Using C</td>
+            <td><a href="pop13.html">Click here to watch</a></td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+<script>
+    function w3_open() {
+      document.getElementById("main").style.marginLeft = "33%";
+      document.getElementById("mySidebar").style.width = "37%";
+      document.getElementById("mySidebar").style.display = "block";
+      document.getElementById("openNav").style.display = 'none';
+    }
+    function w3_close() {
+      document.getElementById("main").style.marginLeft = "0%";
+      document.getElementById("mySidebar").style.display = "none";
+      document.getElementById("openNav").style.display = "inline-block";
+    }
+</script>
+    </body>
+</html>
