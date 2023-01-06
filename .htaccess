@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^learn2more\.oline$ [NC]
+RewriteRule ^(.*)$ https://www.learn2more.online/$1 [L,R=301]
